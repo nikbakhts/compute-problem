@@ -27,9 +27,10 @@ How to produce output from this input is described below.
 
 ## Output
 
-The program only outputs numbers, and only writes one number per line. It will
-write one number for every number accepted via standard input. It will also
-output one additional number.
+The program __must only output numbers__.  Every line of output must contain
+one (and only one) numerical value.  Do not output anything other than what
+is required.  One number will be written for every number accepted via standard
+input.  One extra number will be written at the very end, as explained below.
 
 Since there are up to 100 lines of input (n <= 100), there will therefore be n+1
 lines of output expected from a valid solution.  The last line of output
