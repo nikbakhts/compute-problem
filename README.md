@@ -140,7 +140,7 @@ __threshold == 0.0; limit == 0.0__
 
 ## Important considerations worth noting/repeating
 
-* Input lines will consist of decimal or integer numbers (`\n`-separated).
+* Input lines will consist of decimal or integer numbers (i.e. numbers separated by newline characters).
 * The output should consist of `n+1` lines, each containing one number.
 * Decimal precision must be accurate to the tenths place.
   Inputs may have arbitrary precision.
