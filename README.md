@@ -32,11 +32,11 @@ one (and only one) numerical value.  Do not output anything other than what
 is required.  One number will be written for every number accepted via standard
 input.  One extra number will be written at the very end, as explained below.
 
-Since there are up to 100 lines of input (n <= 100), there will therefore be n+1
-lines of output expected from a valid solution.  The last line of output
-(line n+1) will be a value that represents the sum of all the values previously
-written.  The preceding output values will depend on the arguments, which will
-be used to transform the input into the output.
+Since there are up to 100 lines of input (0 <= n <= 100), there will therefore
+be n+1 lines of output expected from a valid solution.  The last line of output
+(line n+1) will be a value that represents the cumulative sum of all the values
+previously written.  The preceding output values will depend on the arguments,
+which will be used to transform the input into the output.
 
 ### Example
 
@@ -76,10 +76,10 @@ the input value that exceeds the threshold. If the input is less than the
 threshold, the output should be zero. Put another way, the output value
 will be the larger of 0.0 or the value of `[input] - [threshold]`.
 
-The `limit` amount serves to further constrain the output values. The sum of
-of all `n` outputs must never exceed this value, however the individual output
-values must be maximized in the order they are given without breaking the rules
-imposed by `threshold` and `limit`.
+The `limit` amount serves to further constrain the output values. The cumulative
+sum of of all `n` outputs must never exceed this value, however the individual
+output values must be maximized in the order they are given without breaking the
+rules imposed by `threshold` and `limit`.
 
 After all inputs are processed, output value `n+1` will be written. It must be
 equal to the sum of all `n` output values. It follows from the rules above that
@@ -123,8 +123,8 @@ __threshold == 0.0; limit == 100.0__
 | 20.0  | 0.0       |
 |       | __100.0__ |
 
-__Note:__ The sum of the first four inputs after applying the threshold has
-exceeded the limit, thus the fourth output is `40.0` to ensure maximum output
+__Note:__ The cumulative sum of the first four inputs after applying the threshold
+has exceeded the limit, thus the fourth output is `40.0` to ensure maximum output
 values while respecting the `limit` argument.
 
 
@@ -143,7 +143,8 @@ __threshold == 0.0; limit == 0.0__
 * Input lines will consist of decimal or integer numbers (i.e. The input numbers will be separated by newline characters).
 * The output should consist of `n+1` lines, each containing one number.
 * Decimal precision must be accurate to the tenths place.
-  Inputs may have arbitrary precision.
+  Inputs will not have precision beyond the tenths place, so rounding should be unnecessary.
+  If any rules around input/output precision are ambiguous, feel free to state your assumptions in code comments.
 
 
 ## Submission guidelines
