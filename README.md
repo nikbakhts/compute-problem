@@ -13,7 +13,7 @@ packaging options are available for submitting a valid solution.
 ## Input
 
 Input will consist of up to 100 lines of numbers - all decimal numbers
-between 0.0 and 10,000,000.0 (inclusive).  The `compute` executable or
+between 0.0 and 1,000,000,000.0 (inclusive).  The `compute` executable or
 `compute.py` script must also accept two numerical arguments provided on
 the command line.
 
