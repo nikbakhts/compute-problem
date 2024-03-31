@@ -1,0 +1,67 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0": []
+  },
+  "packageFolders": {
+    "/Users/saeednikbakht/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/saeednikbakht/Projects/compute-problem/dotnet7x/ComputeUtility/ComputeUtility/ComputeUtility.csproj",
+      "projectName": "ComputeUtility",
+      "projectPath": "/Users/saeednikbakht/Projects/compute-problem/dotnet7x/ComputeUtility/ComputeUtility/ComputeUtility.csproj",
+      "packagesPath": "/Users/saeednikbakht/.nuget/packages/",
+      "outputPath": "/Users/saeednikbakht/Projects/compute-problem/dotnet7x/ComputeUtility/ComputeUtility/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/saeednikbakht/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.devexpress.com/ACWgu8sPNeWYSbjdqHjGeyn9NmsjKtVwQPgwvXGSoCAzNu7JfS/api": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
