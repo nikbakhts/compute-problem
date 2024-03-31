@@ -45,8 +45,6 @@
         {
             var inputs = new List<double>();
 
-            Console.WriteLine("Enter inputs:");
-
             for (int i = 0; i < 100; i++)
             {
                 string? line;
